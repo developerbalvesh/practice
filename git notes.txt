@@ -1,0 +1,22 @@
+.git folder contain the configuration about the git, delete if you want to re work
+
+git init -> init new project
+git status -> view git status shows red if not added to git else green
+git add . -> adds all files to git staging area
+git -rm --cached <file.name> -> remove file from git stating area
+git commit -m 'added first heading' -> commit the changes till this work
+git log -> shows all commit history
+git log --oneline -> shows commit history in short, in that it shows id and commit name
+git checkout <commit_id> -> switch to specific commit using id
+git checkout master -> switch back to current master/where you are working currently
+git revert <commit-id> -> it reverts to specific checkpoint, and does not remove checkpoints
+git reset <commit-id> -> revert to specific while deleting all the checkpoints
+git reset <commit-id> --hard -> revert to specific point and delete all checkpoints include commits
+git branch <new-branch-name> -> creates new branch
+git branch -a -> list all branches & shows current branch where we're working
+git checkout <branch-name> -> switches to another branch
+
+
+
+
+

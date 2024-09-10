@@ -1,5 +1,6 @@
 .git folder contain the configuration about the git, delete if you want to re work
 
+*******************git********************* 
 git init -> init new project
 git status -> view git status shows red if not added to git else green
 git add . -> adds all files to git staging area
@@ -16,7 +17,10 @@ git branch <new-branch-name> -> creates new branch
 git branch -a -> list all branches & shows current branch where we're working
 git checkout <branch-name> -> switches to another branch
 git commit -m 'commit-name' -> commit to new branch, before committing changes switch to another/new branch
-git branch -D <branch-name> -> delete the branch, before it need to switch to another branch
+git branch -D <branch-name> -> delete the branch, before it need to switch to another branch. if something goes wrong in this branch then delete it
+git merge <other-branch-name> -> merges the another branch to main/master branch, need to switch to main branch
+
+*************github**************
 
 
 
